@@ -1,12 +1,9 @@
 #!/bin/bash
 
-colors=(red blue pink)
-#echo ${colors[0]}
-#echo ${colors[1]}
-#echo ${colors[2]}
-#echo ${colors[@]}
-#echo ${#colors[@]}
+#echo 5+2
+#echo `expr 5 + 2`
+#echo $((5 + 2))
 
-colors[1]=silver
-colors+=(green orange)
-echo ${colors[@]}
+n=5
+((n=n+5))
+echo $n
