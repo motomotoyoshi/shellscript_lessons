@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#read name
-#echo "hello $name"
+colors=(red blue pink)
+#echo ${colors[0]}
+#echo ${colors[1]}
+#echo ${colors[2]}
+#echo ${colors[@]}
+#echo ${#colors[@]}
 
-#read -p "Name: " name
-#echo "hello $name"
-
-read -p "Pick 3 colors: " c1 c2 c3
-echo $c1
-echo $c2
-echo $c3
+colors[1]=silver
+colors+=(green orange)
+echo ${colors[@]}
