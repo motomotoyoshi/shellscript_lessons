@@ -1,3 +1,7 @@
 #!/bin/bash
 
-echo hello
+name="popo"
+
+echo "hello $name"
+echo "good $name"
+echo 'good $name'
